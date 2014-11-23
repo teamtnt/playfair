@@ -19,6 +19,11 @@ $ composer require teamtnt/playfair
 ```
 
 ## Usage
+### Linear Regression
+
+In simple linear regression, we predict scores on one variable from the scores on a second variable. The variable we are
+predicting is called the criterion variable and is referred to as Y. The variable we are basing our predictions on is
+called the predictor variable and is referred to as X.
 
 ``` php
 use TeamTNT\PlayFair\Math\Statistics\LinearRegression;

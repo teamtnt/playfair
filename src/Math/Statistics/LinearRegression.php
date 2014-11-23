@@ -4,7 +4,7 @@ namespace TeamTNT\PlayFair\Math\Statistics;
 
 use TeamTNT\PlayFair\Math\Common;
 
-class LinearRegression extends Common{
+class LinearRegression extends Common {
 
     private $scale = 3;
 

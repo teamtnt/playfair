@@ -1,5 +1,6 @@
 /bootstrap/compiled.php
 .env.*.php
 .env.php
+.idea
 vendor
 build

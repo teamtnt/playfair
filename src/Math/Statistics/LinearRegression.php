@@ -17,7 +17,7 @@ class LinearRegression extends Common {
         $denominator = 0;
         for($i=0; $i<count($x); $i++) {
             $numerator = bcadd($numerator, bcmul(bcsub($x[$i], $mean_x, $this->scale),bcsub($y[$i], $mean_y, $this->scale), $this->scale), $this->scale);
-            $denominator = bcadd($denominator, pow(bcsub($x[$i],$mean_x, $this->scale), 2), $this->scale);
+            $denominator = bcadd($denominator, bcpow(bcsub($x[$i],$mean_x, $this->scale), 2, $this->scale), $this->scale);
         }
 
         $b = bcdiv($numerator, $denominator, $this->scale);
